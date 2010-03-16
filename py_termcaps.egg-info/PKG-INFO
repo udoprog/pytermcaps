@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: py-termcaps
+Version: 1.0dev
+Summary: Python OO wrapper for detecting terminal capabilities
+Home-page: http://github.com/udoprog/py-termcaps
+Author: John-John Tedro
+Author-email: johnjohn.tedro@gmail.com
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN

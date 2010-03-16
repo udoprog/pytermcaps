@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+py_termcaps.egg-info/PKG-INFO
+py_termcaps.egg-info/SOURCES.txt
+py_termcaps.egg-info/dependency_links.txt
+py_termcaps.egg-info/entry_points.txt
+py_termcaps.egg-info/top_level.txt
+py_termcaps.egg-info/zip-safe
+pytermcaps/__init__.py
