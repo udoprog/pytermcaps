@@ -3,7 +3,11 @@
 #
 
 import os;
+import sys;
 import curses
+
+class TermCapHolder(object):
+    pass;
 
 class TermCaps:
     """
@@ -16,10 +20,10 @@ class TermCaps:
     
     _encoding = "utf-8";
     
-    def __init__(self, stream):
+    def __init__(self, **kw):
         self.haslogged = False;
         self.tc = True;
-        self.stream=stream;
+        self.stream = kw.pop("stream", sys.stdout);
         self.encoding = kw.pop("encoding", self._encoding);
         
         self.caps=None;
